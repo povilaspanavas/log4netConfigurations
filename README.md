@@ -5,5 +5,5 @@ Don't forget to call XmlConfigurator.Configure() or to put this in AssemblyInfo.
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 You can create a logger in a class:
-private static readonly ILog log = LogManager.GetLogger(typeof(MyApp));
+private static readonly ILog _log = LogManager.GetLogger(typeof(MyApp));
 
